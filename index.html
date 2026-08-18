@@ -7,17 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <canvas id="game"></canvas>
-    <div id="hud">
-        <span id="score">Score: 0</span>
-        <span id="wave">Wave: 1</span>
-        <span id="lives">Lives: ♥♥♥</span>
-    </div>
-    <div id="start-screen">
-        <h1>Galaxy Defender</h1>
-        <p>Destroy enemies, collect power-ups!</p>
-        <p class="controls">Arrow Keys: Move | Space: Shoot</p>
-        <button id="start-btn">Launch</button>
+    <div class="app">
+        <h1>🚀 Space Shooter</h1>
+        <div class="score-bar"><span>Score: <strong id="score">0</strong></span><span>Lives: <strong id="lives">3</strong></span><span>Wave: <strong id="wave">1</strong></span></div>
+        <canvas id="gameCanvas" width="480" height="600"></canvas>
+        <p>← → Move | Space to shoot</p>
     </div>
     <script src="script.js"></script>
 </body>

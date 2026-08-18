@@ -1,19 +1,17 @@
-# Galaxy Defender - Space Shooter
+# Space Shooter
 
-A classic space shooter with enemy waves, power-ups, and boss battles.
+Space shooter game with enemies, waves, and particle effects.
 
 ## Features
-- Multiple enemy types (normal, fast, boss)
-- Wave-based enemy spawning with increasing difficulty
-- Power-ups: spread shot, speed boost, extra life
-- Enemy AI shooting
-- Particle effects for explosions and hits
-- Starfield background with parallax
-- Score and wave tracking
+- Shoot enemies
+- Wave progression
+- Particle explosions
+- Star field background
+- Lives system
+- Increasing difficulty
 
-## Controls
-- Arrow Keys / WASD: Move
-- Space: Shoot
+## Run
+Open `index.html` in browser.
 
 ## Tech
-- HTML5 Canvas, Vanilla JavaScript
+HTML5, CSS3, JavaScript, Canvas API
